@@ -1,0 +1,105 @@
+body
+{
+  max-width: 1900px;
+  width:100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+.header
+{
+  width:100%;
+  height: 375px;
+  background-color: #979797;
+  opacity: 0.5;
+
+}
+
+.nav
+{
+  position:relative;
+  top: -20px;
+  width: 100%;
+  height:50px;
+  background-color: #83CB70;
+
+}
+
+.nav-writing
+{
+  color: white;
+}
+#about
+{
+  position: absolute;
+  left: 15%;
+}
+#services
+{
+  position: absolute;
+  left: 30%;
+
+}
+
+#location
+{
+  position: absolute;
+  left: 45%;
+
+}
+#testimonials
+{
+  position: absolute;
+  left: 60%;
+
+}
+#contact
+{
+  position: absolute;
+  left: 75%;
+
+}
+.content
+{
+  position:relative;
+
+  width:100%;
+  height:450px;
+  top:-10px;
+}
+#aboutContainer
+{
+  position:absolute;
+  background-color: pink;
+
+
+}
+#servicesContainer
+{
+  position:absolute;
+  background-color: #83CB70;
+  opacity:0.55;
+  top:96%;
+}
+#locationContainer
+{
+  position:absolute;
+  background-color: pink;
+  top:196%;
+
+}
+#testimonialsContainer
+{
+  position:absolute;
+  background-color: #83CB70;
+  opacity: 0.55;
+  top:296%;
+}
+#contactContainer
+{
+  position: absolute;
+  background-color: pink;
+  top:396%;
+}
