@@ -103,3 +103,39 @@ body
   background-color: pink;
   top:396%;
 }
+#aboutInfo
+{
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  width: 40%;
+  height: 30%;
+  border-radius: 25px;
+  background-color: blue;
+}
+#aboutPicture
+{
+  position: absolute;
+  left: 5%;
+  top: 15%;
+
+
+}
+.image-circle
+{
+  border-radius: 50%;
+
+}
+#dogPicture1
+{
+  position: absolute;
+  left: 80%;
+  top: 20%;
+}
+
+#dogPicture2
+{
+  position: absolute;
+  left: 70%;
+  top:40%;
+}
