@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery 
+
+	useFullscreenExpand="true"
+	backgroundColor="rgba(255,255,255,0.65)"
+	thumbFrameColor="rgba(255,255,255,0)"
+	useThumbDots="false"
+	showThumbsButton="true"
+
+>
+  <image imageURL="images/DOG8-14.jpg"
+	thumbURL="thumbs/DOG8-14.jpg"
+	linkURL="images/DOG8-14.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/BrodyJackson/Desktop/DOG8-14.JPG">
+    <title><![CDATA[DOG8-14]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/dog-926.jpg"
+	thumbURL="thumbs/dog-926.jpg"
+	linkURL="images/dog-926.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/BrodyJackson/Desktop/dog-926.JPG">
+    <title><![CDATA[dog-926]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/0610250916401fall_frolicfrolic-2.jpg"
+	thumbURL="thumbs/0610250916401fall_frolicfrolic-2.jpg"
+	linkURL="images/0610250916401fall_frolicfrolic-2.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/BrodyJackson/Desktop/0610250916401fall_frolicfrolic-2.JPG">
+    <title><![CDATA[0610250916401fall_frolicfrolic-2]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Dog_0013.jpg"
+	thumbURL="thumbs/Dog_0013.jpg"
+	linkURL="images/Dog_0013.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/BrodyJackson/Desktop/Dog_0013.JPG">
+    <title><![CDATA[Dog_0013]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/091dbe9f.jpg"
+	thumbURL="thumbs/091dbe9f.jpg"
+	linkURL="images/091dbe9f.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/BrodyJackson/Desktop/091dbe9f.JPG">
+    <title><![CDATA[091dbe9f]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+</juiceboxgallery>

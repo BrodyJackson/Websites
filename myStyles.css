@@ -6,6 +6,7 @@ body
   margin: 0;
   padding: 0;
 
+
 }
 
 .header
@@ -65,21 +66,27 @@ body
 }
 .content
 {
-  height:450px;
+  top:100%;
+  height:900px;
   width: 100%;
 }
 .wrap
 {
-  position:absolute;
-
-  width:100%;
-  height:450px;
-  top:100%;
+  width: 80%;
+  height:1000px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 #aboutContainer
 {
   position:absolute;
-  background-color: pink;
+  background-color: #F6F6F6;
+  box-shadow: 0px 0px 10px #888888;
+
 
 
 }
@@ -88,13 +95,16 @@ body
   position:absolute;
   background-color: #83CB70;
   opacity:0.55;
-  top:100%;
+  box-shadow: 0px 0px 10px #888888;
+  top:200%;
 }
 #locationContainer
 {
   position:absolute;
-  background-color: pink;
-  top:196%;
+  background-color: #F6F6F6;
+  top:300%;
+  box-shadow: 0px 0px 10px #888888;
+
 
 }
 #testimonialsContainer
@@ -102,31 +112,35 @@ body
   position:absolute;
   background-color: #83CB70;
   opacity: 0.55;
-  top:296%;
+  top:400%;
+  box-shadow: 0px 0px 10px #888888;
+
 }
 #contactContainer
 {
   position: absolute;
-  background-color: pink;
-  top:396%;
+  background-color: #F6F6F6;
+  top:496%;
+  box-shadow: 0px 0px 10px #888888;
+
 }
 #aboutInfo
 {
   position: absolute;
-  top: 30%;
-  left: 30%;
+  top: 20%;
+  left: 31%;
   width: 40%;
-  height: 50%;
+  height: 70%;
   border-radius: 25px;
-  background-color: blue;
-  opacity:0.5;
+  background-color: white;
+  /*opacity:0.5;*/
+  box-shadow: 0px 0px 10px #888888;
 }
 #aboutPicture
 {
   position: absolute;
-  left: 5%;
-  top: 15%;
-
+  left: 2%;
+  top: 20%;
 
 }
 .image-circle
@@ -137,18 +151,31 @@ body
 #dogPicture1
 {
   position: absolute;
-  left: 85%;
+  left: 80%;
   top: 20%;
 }
 
 #dogPicture2
 {
   position: absolute;
-  left: 75%;
+  left: 73%;
   top:40%;
 
 }
+#dogPicture3
+{
+  position: absolute;
+  left: 80%;
+  top:60%;
 
+}
+#dogPicture4
+{
+  position: absolute;
+  left: 73%;
+  top:80%;
+
+}
 #servicesInfo
 {
   position:absolute;
@@ -160,6 +187,7 @@ body
   width: 50%;
   height: 60%;
   border-radius: 25px;
+  box-shadow: 0px 0px 10px #888888;
 
 }
 #servicesPicture1
@@ -190,42 +218,51 @@ body
 #googlemap
 {
   position: absolute;
-  top: 10%;
-  left: 5%;
+  top: 15%;
+  left: 20%;
+  box-shadow: 0px 0px 10px #888888;
+
 }
 #directions
 {
   position: absolute;
-  width: 40%;
-  height:65%;
-  left: 55%;
-  top: 15%;
-  background-color: blue;
+  width: 79%;
+  height:30%;
+  left: 12%;
+  top: 60%;
+  background-color: white;
   border-radius: 25px;
-  opacity:0.5;
+  /*opacity:0.5;*/
+  box-shadow: 0px 0px 10px #888888;
+
 
 }
 .testi
 {
   position:absolute;
-  height:70%;
-  width:20%;
-  background-color: blue;
+  height:40%;
+  width:30%;
   top: 15%;
+  position: absolute;
+  border-radius: 25px;
+  background-color: #FFFFFF;
+  opacity: 0.65;
+  /*opacity:0.5;*/
+  box-shadow: 0px 0px 10px #888888;
 }
 #testi1
 {
-  left:10%;
+  left:3%;
 
 }
 #testi2
 {
-  left:40%;
+  left:35%;
 
 }
 #testi3
 {
-  left:70%;
+  left:67%;
 
 }
 #email
@@ -235,8 +272,11 @@ body
   height:70%;
   left:10%;
   top:15%;
-  background-color: blue;
-  opacity:0.5;
+  background-color: white;
+  /*opacity:0.5;*/
+  box-shadow: 0px 0px 10px #888888;
+
+
 }
 #contactinfo
 {
@@ -246,12 +286,16 @@ body
   left: 65%;
   top:20%;
   background-color: blue;
-  opacity:0.5;
+  /*opacity:0.5;*/
   border-radius: 25px;
+  background-color: white;
+  box-shadow: 0px 0px 10px #888888;
 }
 #headerDog
 {
   bottom: 300px;
+  width:100%;
+  height:auto;
 }
 #welcome
 {
@@ -264,6 +308,7 @@ body
   border-width: thick;
   border-color: white;
 }
+
 #message
 {
   position:absolute;
@@ -300,4 +345,13 @@ body
   height: 50%;
   left:25%;
   top:25%;
+}
+
+.writing
+{
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  top:10%;
 }
